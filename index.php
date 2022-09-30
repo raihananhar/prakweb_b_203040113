@@ -42,7 +42,7 @@ $books = query("SELECT * FROM buku");
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/icons/font/bootstrap-icons.css">
-  <title>Zema's Store - List of Books</title>
+  <title>An's Store - List of Books</title>
 </head>
 
 <body>
