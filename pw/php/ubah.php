@@ -38,7 +38,7 @@ if (isset($_POST['ubah'])) {
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/icons/font/bootstrap-icons.css">
-  <title>Pesona Store - Edit Item</title>
+  <title>Zean's Store - Edit Item</title>
 </head>
 
 <body class="bg-main">
@@ -48,7 +48,7 @@ if (isset($_POST['ubah'])) {
     <div class="row justify-content-center">
       <div class="card col-sm-10 col-md-8">
         <div class="card-body">
-          <h4 class="card-title text-center">Edit Item on An's Store</h4>
+          <h4 class="card-title text-center">Edit Item on Zean's Store</h4>
           <form action="" method="POST" enctype="multipart/form-data">
             <div class="mb-2">
               <label for="name" class="col-form-label">Judul</label>
