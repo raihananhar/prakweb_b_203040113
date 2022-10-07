@@ -30,7 +30,7 @@ if (isset($_POST['cari'])) {
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-main mx-auto">
     <div class="container">
-      <a href="index.php" class="fw-bold  align-middle navbar-brand">An</a>
+      <a href="index.php" class="fw-bold  align-middle navbar-brand">Zean'Pelor</a>
       <ul class="navbar-nav">
         <a class="nav-item nav-link page-scroll" href="php/admin.php">
           <button type="button" class="btn btn-1"><i class="fw-bold align-middle"></i> Admin Page</button>
@@ -47,7 +47,7 @@ if (isset($_POST['cari'])) {
         <div class="card me-2 mb-3 col-sm-5 col-md-5">
           <div class="row">
             <div class="col-md-4 m-2">
-              <img src="../assets/img/<?= $book["gambar"]; ?>" class="img-fluid rounded" width="125px">
+              <img src="../pw/assets/img/<?= $book["gambar"]; ?>" class="img-fluid rounded" width="125px">
             </div>
             <div class="col-md-7">
               <div class="card-body">
