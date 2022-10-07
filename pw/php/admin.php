@@ -75,7 +75,7 @@ if (isset($_POST['cari'])) {
           <td><?= $no; ?></td>
           <td class="text-center col-1">
             <!-- button edit -->
-            <a href="ubah.php?id=<?= $book['id']; ?>" class="btn btn-sm btn-outline-primary m-1"><i class="bi bi-pencil-square d-md-block d-sm-none"></i> Edit</a>
+            <a href="ubah.php?id=<?= $book['id']; ?>" class="btn btn-sm btn-outline-success m-1"><i class="bi bi-pencil-square d-md-block d-sm-none"></i> Edit</a>
             <!-- button delete -->
             <a href="hapus.php?id=<?= $book['id']; ?>" class="delete btn btn-sm btn-outline-danger" onclick="return confirm('Delete This?')"><i class="bi bi-trash d-md-block d-sm-none"></i> Delete</a>
           </td>
