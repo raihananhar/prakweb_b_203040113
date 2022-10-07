@@ -1,0 +1,94 @@
+.font-poppins { font-family: 'Poppins', sans-serif; }
+.font-oswald { font-family: 'Oswald', sans-serif; }
+.font-roboto { font-family: 'Roboto', sans-serif; }
+
+/* Background Color */
+/* Background Color */
+.bg-main { background-color: #4b8397 !important;}
+.bg-1 { background-color: #dddddd !important; }
+.bg-2 { background-color: #E9CCB1 !important; }
+.bg-3 { background-color: #EBCFC4 !important; }
+.bg-4 { background-color: #D3C4BE !important; }
+
+/* Text */
+.text-main { color: #FDFCFA; }
+.text-sec { color: #EAE4D9; }
+.text-main-dark { color: #333; }
+
+/* Link */
+.link-main { color: #FDFCFA; text-decoration: none; }
+.link-sec { color: #EAE4D9; text-decoration: none; }
+.link-main-dark { color: rgb(0, 0, 0); text-decoration: none; }
+
+.link-main:hover { color: #111110; }
+.link-sec:hover { color: #a5a095; }
+.link-main-dark:hover { color: rgb(0, 0, 0); }
+
+/* Button */
+.btn-1 {
+  color: #333 !important;
+  background-color: #2dbd86 !important;
+}
+.btn-1:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #dddddd !important;
+}
+
+.btn-2 {
+  color: #333 !important;
+  background-color: #EBCFC4 !important;
+}
+.btn-2:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #c9b1a7 !important;
+}
+
+.btn-3 {
+  color: #333 !important;
+  background-color: #D3C4BE !important;
+}
+.btn-3:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #ac9f9a !important;
+}
+
+.btn-4 {
+  color: #333 !important;
+  background-color: #CEB8A6 !important;
+}
+.btn-4:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #ac9888 !important;
+}
+
+/* section */
+section {
+  min-height: 400px;
+  padding-top: 50px;
+}
+
+/* index.html - index page */
+#kuliah, #praktikum, #tubes {
+  max-height: 450px;
+  padding-top: 75px;
+  margin-top: 25px;
+}
+
+/* index.php */
+.home {
+  min-height: 650px;
+  background-image: url("../img/main.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+}
+
+.home-text {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #333;
+  color: #FDFCFA;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
