@@ -37,7 +37,7 @@ if (isset($_POST['cari'])) {
 
   <!-- Admin -->
   <section id="admin" class="my-5 container justify-content-center">
-    <h1 class="text-center display-5 fw-bold mb-3">An's Database</h1>
+    <h1 class="text-center display-5 fw-bold mb-3">Zean's Database</h1>
 
     <!-- Action Bar -->
     <form action="" method="POST" class="mb-3">
