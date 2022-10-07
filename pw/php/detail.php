@@ -25,7 +25,7 @@ $books = query("SELECT * FROM buku where id = '$id'");
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/icons/font/bootstrap-icons.css">
-  <title>An's Libraly</title>
+  <title>Zean's Libraly</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@ $books = query("SELECT * FROM buku where id = '$id'");
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-main mx-auto">
     <div class="container">
-      <a href="../index.php" class="fw-bold align-middle navbar-brand">An's Store</a>
+      <a href="../index.php" class="fw-bold align-middle navbar-brand">Zean's Store</a>
     </div>
   </nav>
 
