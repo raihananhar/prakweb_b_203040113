@@ -24,6 +24,15 @@ class App {
                 unset($url[1]);
             }
         }
+
+        // params
+        if( !empty($url)) {
+            $this->params = array_values($url);
+        }
+
+        // jalankan contriller % method, serta kirimkan params jika ada
+        call_user_func_array([$this->controller, $this->method], $this->params);
+        
     }
 
     public function parseURL()
