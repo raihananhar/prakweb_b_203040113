@@ -4,7 +4,7 @@ body {
     /* background: linear-gradient(45deg, #0a0223, #000000); */
 }
 .navbar {
-    background: rgba(255,255,255,0.2) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
     box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     /* border-radius: 20px; */
     backdrop-filter: blur(10px);
@@ -14,16 +14,16 @@ body {
 }
 
 .navbar-brand {
-    color: #f1f1f4;
+    color: #000000;
     font-weight: 500;
 }
 
 .nav-link {
-    color: #f1f1f4 !important;
+    color: #000000 !important;
 }
 
 .container .glass {
-    background: rgba(255,255,255,0.2) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
     box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     border-radius: 5px;
     backdrop-filter: blur(10px);
