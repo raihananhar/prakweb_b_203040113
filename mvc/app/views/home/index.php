@@ -5,7 +5,7 @@
         <p class="lead text-light">Halo, nama saya <?= $data['nama']; ?></p>
         <hr class="my-4 border-light">
         <p class="text-light">Jika klik button di bawah ini di arahkan pada halaman about.</p>
-        <a class="btn btn-light btn-lg" href="<?= BASEURL;?>/about" role="button">About Me</a>
+        <a class="btn btn-danger btn-lg" href="<?= BASEURL;?>/about" role="button">About Me</a>
         </div>
     </div>
 </div>

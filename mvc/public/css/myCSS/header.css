@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../img/bg.jpg");
+    background-image: url("../../img/bg3.png");
     background-size: cover;
     /* background: linear-gradient(45deg, #0a0223, #000000); */
 }
@@ -14,14 +14,14 @@ body {
 }
 
 .navbar-brand {
-    color: #081ff1;
+    color: #f10808;
     font-weight: 500;
     
 }
 
 
 .nav-link {
-    color: #045cff !important;
+    color: #ff0404 !important;
 }
 
 .container .glass {

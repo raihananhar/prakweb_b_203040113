@@ -8,7 +8,7 @@
 
     <div class="row mb-3">
         <div class="col-lg-6">
-        <button type="button" class="btn btn-primary tombolTambahData" data-bs-toggle="modal" data-bs-target="#forModal">
+        <button type="button" class="btn btn-danger tombolTambahData" data-bs-toggle="modal" data-bs-target="#forModal">
             Tambah Data Mahasiswa
         </button>
         </div>
@@ -19,7 +19,7 @@
             <form action="<?= BASEURL; ?>/mahasiswa/cari" method="post">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="cari mahasiswa.." name="keyword" id="keyword" autocomplete="off">
-                    <button class="btn btn-primary text-light" type="submit" id="tombolCari">Cari</button>
+                    <button class="btn btn-danger text-light" type="submit" id="tombolCari">Cari</button>
                 </div>
             </form>
         </div>
