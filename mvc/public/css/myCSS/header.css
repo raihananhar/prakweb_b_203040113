@@ -8,9 +8,9 @@ body {
     box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     /* border-radius: 20px; */
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.25);
+    /* border: 1px solid rgba(255,255,255,0.25); */
     border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
+    /* border-left: 1px solid rgba(255,255,255,0.5);  */
 }
 
 .navbar-brand {
@@ -24,14 +24,17 @@ body {
     color: #ff0404 !important;
 }
 
+a:hover {
+    color: #ffffff;
+}
 .container .glass {
     background: rgba(0, 0, 0, 0.2) !important;
     box-shadow: 0 15px 35px rgba(0,0,0,0.05);
     border-radius: 5px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.25);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
+    /* backdrop-filter: blur(10px); */
+    /* border: 1px solid rgba(255,255,255,0.25); */
+     border-bottom: 1px solid rgba(255,255,255,0.5); 
+     border-left: 1px solid rgba(255,255,255,0.5);
 }
 
 .list-group-item {
