@@ -14,12 +14,14 @@ body {
 }
 
 .navbar-brand {
-    color: #0400ff;
+    color: #081ff1;
     font-weight: 500;
+    
 }
 
+
 .nav-link {
-    color: #0059ff !important;
+    color: #045cff !important;
 }
 
 .container .glass {
