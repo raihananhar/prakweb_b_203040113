@@ -32,9 +32,9 @@
                         <?php foreach( $data['mhs'] as $mhs ) : ?>
                             <li class="list-group-item text-light">
                                 <?= $mhs['nama']; ?>
-                                <a href="<?= BASEURL; ?>/mahasiswa/hapus/<?= $mhs['id']; ?>" class="badge text-bg-danger float-end me-1" onclick="return confirm('Yakin?');">Hapus</a>
-                                <a href="<?= BASEURL; ?>/mahasiswa/ubah/<?= $mhs['id']; ?>" class="badge text-bg-success float-end me-1 tampilModalUbah" data-bs-toggle="modal" data-bs-target="#forModal" data-id="<?= $mhs['id']; ?>">Ubah</a>
-                                <a href="<?= BASEURL; ?>/mahasiswa/detail/<?= $mhs['id']; ?>" class="badge text-bg-primary float-end me-1">Detail</a>
+                                <a style="text-decoration:none"href="<?= BASEURL; ?>/mahasiswa/hapus/<?= $mhs['id']; ?>" class="badge text-bg-danger float-end me-1" onclick="return confirm('Yakin?');">Hapus</a>
+                                <a style="text-decoration:none"href="<?= BASEURL; ?>/mahasiswa/ubah/<?= $mhs['id']; ?>" class="badge text-bg-success float-end me-1 tampilModalUbah" data-bs-toggle="modal" data-bs-target="#forModal" data-id="<?= $mhs['id']; ?>">Ubah</a>
+                                <a style="text-decoration:none"href="<?= BASEURL; ?>/mahasiswa/detail/<?= $mhs['id']; ?>" class="badge text-bg-danger float-end me-1">Detail</a>
                             </li>
                         <?php endforeach; ?>
                     </ul>
