@@ -14,16 +14,20 @@ body {
 }
 
 .navbar-brand {
-    color: #f10808;
+    color: #d40b0b;
     font-weight: 500;
     
 }
 
 
 .nav-link {
-    color: #ff0404 !important;
+    color: #e60101 !important;
+    font-size: larger;
 }
 
+a {
+    color: #ffffff;
+}
 a:hover {
     color: #ffffff;
 }
@@ -33,8 +37,9 @@ a:hover {
     border-radius: 5px;
     /* backdrop-filter: blur(10px); */
     /* border: 1px solid rgba(255,255,255,0.25); */
-     border-bottom: 1px solid rgba(255,255,255,0.5); 
+     /* border-bottom: 1px solid rgba(255,255,255,0.5);  */
      border-left: 1px solid rgba(255,255,255,0.5);
+     border-right: 1px solid rgba(255,255,255,0.5);
 }
 
 .list-group-item {
